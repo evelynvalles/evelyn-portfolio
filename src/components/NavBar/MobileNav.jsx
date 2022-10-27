@@ -6,6 +6,7 @@ import NavLinks from './NavLinks'
 
 const MobileNav = () => {
     const [open, setOpen] = useState(false);
+    const [color, setColor] = useState(false);
 
     const hamburgerIcon = <CgMenu className={styles.hamburger}
                             size="40px" color="#333"
@@ -17,9 +18,20 @@ const MobileNav = () => {
 
     const closeMobileMenu = () => setOpen(false);
 
+    const changeColor = () => {
+        if (window.scrollY >= 843) {
+            setColor(true)
+        }
+        else {
+            setColor(false)
+        }
+    }
+    
+    window.addEventListener("scroll", changeColor)
+
     return (
         <div className={styles.MobileNav}>
-            <div className={`d-flex align-items-center justify-content-between ${styles.fixedTop} ${styles.header}`} id="header">
+            <div className={`${styles.fixedTop} ${color ? styles.headerTwo : styles.header}`} id="header">
                 <div>
                     <Link to="/" className={styles.logo}>Evelyn Valles</Link>
                 </div>
