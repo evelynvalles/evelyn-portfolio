@@ -1,0 +1,5 @@
+export { default as NavBar } from "./NavBar/NavBar"
+export { default as MainPage} from "./MainPage/MainPage"
+export { default as HomeSection} from "./MainPage/HomeSection/HomeSection"
+export { default as Navigation } from "./NavBar/Navigation"
+export { default as MobileNav } from "./NavBar/MobileNav"
