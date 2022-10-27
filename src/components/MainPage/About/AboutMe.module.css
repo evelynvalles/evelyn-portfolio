@@ -1,0 +1,40 @@
+.header {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-top: 12rem;
+}
+
+.aboutSec {
+    padding: 2rem 18%;
+}
+
+.bio {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.imgBox {
+    margin: 0 3.2rem 4rem 3.2rem;
+}
+.imgBox h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.aboutImg {
+    width: 225px;
+    height: 225px;
+    border-radius: 3.5rem;
+}

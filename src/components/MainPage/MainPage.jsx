@@ -1,10 +1,11 @@
 import React from 'react'
-import { HomeSection } from "../index"
+import { HomeSection, AboutMe } from "../index"
 
 const MainPage = () => {
   return (
     <>
     <HomeSection />
+    <AboutMe />
     </>
   )
 }
