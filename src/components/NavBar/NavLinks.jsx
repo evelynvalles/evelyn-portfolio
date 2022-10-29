@@ -16,28 +16,28 @@ const animateTo = {opacity: 1, y: 0};
                         animate={animateTo}
                         transition={{delay: 0.05}}
                         onClick={() => props.isMobile && props.closeMobileMenu()}>
-                            <Link to="#header" style={{textDecoration: "none", color: "#F0EFEB"}} className={styles.link}>Home</Link>
+                            <a href="#home" style={{textDecoration: "none", color: "#F0EFEB"}} className={styles.link}>Home</a>
                     </motion.li>
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.10}}
                         onClick={() => props.isMobile && props.closeMobileMenu()}>
-                            <Link to="#about" style={{textDecoration: "none", color: "#F0EFEB"}}>About</Link>
+                            <a href="#about" style={{textDecoration: "none", color: "#F0EFEB"}}>About</a>
                     </motion.li>
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.20}}
                         onClick={() => props.isMobile && props.closeMobileMenu()}>
-                            <Link to="#portfolio" style={{textDecoration: "none", color: "#F0EFEB"}}>Portfolio</Link>
+                            <a href="#portfolio" style={{textDecoration: "none", color: "#F0EFEB"}}>Portfolio</a>
                     </motion.li>
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.30}}
                         onClick={() => props.isMobile && props.closeMobileMenu()}>
-                            <Link to="#contact" style={{textDecoration: "none", color: "#F0EFEB"}}>Contact</Link>
+                            <a href="#contact" style={{textDecoration: "none", color: "#F0EFEB"}}>Contact</a>
                     </motion.li>
                     <motion.li 
                         initial={animateFrom}

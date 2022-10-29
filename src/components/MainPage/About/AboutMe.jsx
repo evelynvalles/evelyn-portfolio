@@ -7,8 +7,9 @@ import teamPlayer from "../../../assets/teamwork.png"
 const AboutMe = () => {
 
     return (
-        <div >
-            <h1 id="#about" className={`text-center ${styles.header}`}>About Me</h1>
+        <div id="about">
+            <div style={{height: "10px"}}></div>
+            <h1 className={`text-center ${styles.header}`}>About Me</h1>
             <section className={`${styles.aboutSec}`}>
                 <p className={`mt-5 text-center ${styles.bio}`}>Hello World! My name is Evelyn Valles, 
                 and I am a full-stack developer from Oklahoma City. I have a passion for building websites 
