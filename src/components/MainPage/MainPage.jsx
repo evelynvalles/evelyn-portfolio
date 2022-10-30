@@ -1,12 +1,13 @@
 import React from 'react'
-import { HomeSection, AboutMe, Porfolio } from "../index"
+import { HomeSection, AboutMe, Porfolio, Contact } from "../index"
 
 const MainPage = () => {
   return (
     <>
-    <HomeSection />
-    <AboutMe />
-    <Porfolio />
+      <HomeSection />
+      <AboutMe />
+      <Porfolio />
+      <Contact />
     </>
   )
 }
