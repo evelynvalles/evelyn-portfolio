@@ -24,6 +24,17 @@
     padding-right: 2rem;
 }
 
+.mobileTabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobileTabs .tabs {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 .tabs {
     cursor: pointer;
     font-size: 1.2rem;
@@ -107,5 +118,22 @@
 
     .Portfolio .PortfolioMobile {
         display: inherit;
+    }
+
+    .Portfolio .PortfolioMobile .portfolio {
+        display: block;
+    }
+
+    .header {
+        font-size: 2.5rem;
+    }
+
+    .portfolioSec {
+        margin-top: 0;
+        padding: 2rem 10%;
+    }
+
+    .Portfolio .PortfolioMobile .box h3 {
+        font-size: 1.5rem;
     }
 }

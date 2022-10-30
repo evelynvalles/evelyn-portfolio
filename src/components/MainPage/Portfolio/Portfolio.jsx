@@ -12,7 +12,7 @@ const Portfolio = () => {
 
     return (
         <div id="portfolio" className={styles.Portfolio}>
-            <div style={{height: "20px"}}></div>
+            <div style={{height: "10px"}}></div>
             <h1 className={`text-center ${styles.header}`}>My Portfolio</h1>
             <section className={`${styles.portfolioSec}`}>
                 <PortfolioWeb toggleState={toggleState} toggleTab={toggleTab}/>
