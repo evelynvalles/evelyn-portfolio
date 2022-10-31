@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "../Footer/Footer.module.css"
+import mailIcon from "../../../assets/mail.png"
 
 const Footer = () => {
     return (
@@ -22,6 +23,10 @@ const Footer = () => {
                             <a target="_blank" href="https://www.youtube.com/channel/UCWePcbYceA8VamTBjYhYyAw">
                                 <img className={styles.footerIcon} src="https://d33wubrfki0l68.cloudfront.net/493f1aa6da674c05bc606ba5b9e8092b881e8626/67c76/assets/png/yt-ico.png"
                                 alt="Evelyn Valles YouTube Channel" />
+                            </a>
+                            <a target="_blank" href="mailto:evelynvalles7@gmail.com">
+                                <img className={styles.footerIcon} src={mailIcon} id={styles.mailIcon}
+                                alt="Evelyn Valles Direct Email Message" />
                             </a>
                         </div>
                     </div>

@@ -2,16 +2,48 @@
     font-weight: bolder;
     text-transform: uppercase;
     font-size: 3rem;
-    margin-top: 10rem;
+    margin-top: 8rem;
 }
 
 .aboutSec {
-    padding: 2rem 18%;
+    padding: 2rem 10%;
+}
+
+.aboutContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
+    margin-top: 5rem;
+}
+
+.contentTitle {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .bio {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skillsBtn {
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1rem;
+    background-color: rgba(153,153,153,.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #333;
 }
 
 .row {
@@ -37,4 +69,23 @@
     width: 225px;
     height: 225px;
     border-radius: 3.5rem;
+}
+
+@media (max-width: 1050px) {
+    .aboutContent {
+        grid-template-columns: 1fr;
+        grid-gap: 4rem;
+    }
+    
+    .contentTitle {
+        font-size: 1.5rem;
+    }
+
+    .bio {
+        font-size: 1rem;
+    }
+    
+    .skillsBtn {
+        font-size: .8rem;
+    }
 }
