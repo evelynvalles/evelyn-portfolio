@@ -1,19 +1,34 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import styles from "../Contact/Contact.module.css"
+import emailjs from "@emailjs/browser"
 
 const ContactForm = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID_API_KEY, process.env.REACT_APP_TEMPLATE_ID_API_KEY, form.current, process.env.REACT_APP_EMAILJS_API_KEY)
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset();
+    };
+
     return (
         <div className={`${styles.contactFormContainer}`}>
-            <form action='#' method='POST' className={styles.contactForm}>
+            <form onSubmit={sendEmail} className={styles.contactForm} ref={form}>
                 <div className={`${styles.contactFormField}`}>
-                    <label className={`${styles.contactFormLabel}`} for="name">Name</label>
+                    <label className={`${styles.contactFormLabel}`} for="user_name">Name</label>
                     <input required placeholder='Enter Your Name' type="text" 
-                    className={`${styles.contactFormInput}`} name="name" />
+                    className={`${styles.contactFormInput}`} name="user_name" />
                 </div>
                 <div className={`${styles.contactFormField}`}>
-                    <label className={`${styles.contactFormLabel}`} for="email">Email</label>
-                    <input required placeholder='Enter Your Email' type="text" 
-                    className={`${styles.contactFormInput}`} name="email" />
+                    <label className={`${styles.contactFormLabel}`} for="user_email">Email</label>
+                    <input required placeholder='Enter Your Email' type="email" 
+                    className={`${styles.contactFormInput}`} name="user_email" />
                 </div>
                 <div className={`${styles.contactFormField}`}>
                     <label className={`${styles.contactFormLabel}`} for="message">Message</label>
