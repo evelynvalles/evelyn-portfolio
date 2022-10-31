@@ -30,21 +30,21 @@ const animateTo = {opacity: 1, y: 0};
                         animate={animateTo}
                         transition={{delay: 0.20}}
                         onClick={() => props.isMobile && props.closeMobileMenu()}>
-                            <a href="#portfolio" style={{textDecoration: "none", color: "#F0EFEB"}}>Portfolio</a>
+                            <a href="/#portfolio" style={{textDecoration: "none", color: "#F0EFEB"}}>Portfolio</a>
                     </motion.li>
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.30}}
                         onClick={() => props.isMobile && props.closeMobileMenu()}>
-                            <a href="#contact" style={{textDecoration: "none", color: "#F0EFEB"}}>Contact</a>
+                            <a href="/#contact" style={{textDecoration: "none", color: "#F0EFEB"}}>Contact</a>
                     </motion.li>
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.40}}
                         onClick={() => props.isMobile && props.closeMobileMenu()}>
-                            <Link to="#resume" style={{textDecoration: "none", color: "#F0EFEB"}}>Resume</Link>
+                            <Link to="/resume" style={{textDecoration: "none", color: "#F0EFEB"}}>Resume</Link>
                     </motion.li>
                 </ul>
             </div>

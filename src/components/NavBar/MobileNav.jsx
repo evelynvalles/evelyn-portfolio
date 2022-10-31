@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import styles from "../NavBar/NavBar.module.css"
 import { CgMenu, CgClose } from "react-icons/cg"
 import NavLinks from './NavLinks'
@@ -7,6 +7,7 @@ import NavLinks from './NavLinks'
 const MobileNav = () => {
     const [open, setOpen] = useState(false);
     const [color, setColor] = useState(false);
+    const location = useLocation();
 
     const hamburgerIcon = <CgMenu className={styles.hamburger}
                             size="40px" color="#333"
@@ -31,7 +32,8 @@ const MobileNav = () => {
 
     return (
         <div className={styles.MobileNav}>
-            <div className={`${styles.fixedTop} ${color ? styles.headerTwo : styles.header}`} id="header">
+            <div className={`${styles.fixedTop} ${color ? styles.headerTwo : styles.header} ${location.pathname === '/resume' && styles.headerTwo}`} 
+            id="header">
                 <div>
                     <Link to="/" className={styles.logo}>Evelyn Valles</Link>
                 </div>
