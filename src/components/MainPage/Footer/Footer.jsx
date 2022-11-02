@@ -35,7 +35,7 @@ const Footer = () => {
                     </div>
                 </div>
             <div className={styles.footerLower}>
-                " © Copyright 2022. Made by Evelyn Valles "
+                © Copyright 2022. Made by Evelyn Valles
             </div>
             </div>
         </footer>

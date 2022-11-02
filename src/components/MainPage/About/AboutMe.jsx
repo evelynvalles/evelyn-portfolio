@@ -69,7 +69,7 @@ const AboutMe = () => {
                     </div>
                     <div className={styles.imgBox}>
                         <img src={teamPlayer} alt="team player" className={styles.aboutImg}/>
-                        <h2>Collaborator</h2>
+                        <h2>Collaboration</h2>
                     </div>
                 </div>
             </section>

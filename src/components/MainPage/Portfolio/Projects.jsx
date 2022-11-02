@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from "../Portfolio/Portfolio.module.css"
-import ImgBox from './ImgBox'
 
 const Projects = (props) => {
 
@@ -18,6 +17,17 @@ const Projects = (props) => {
                     <p className={styles.techNames}>
                     Python - Flask - MySQL - Flask's Smtplib Mail Sender - Jinja - Bycrpt - Hotel's API - JSON - JavaScript - CSS - HTML
                     </p>
+                    <div className={`${styles.bottom}`}>
+                        <div className={styles.back}>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hrRDpllRvro" title="YouTube video player" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                        </div>
+                        <div>
+                            <a className={`${styles.sourceBtn} ${styles.hvrForward}`} target="_blank" 
+                            href="https://github.com/evelynvalles/Travel.com-Python-Project" rel="noopener noreferrer">View Source Code</a>
+                        </div>
+                    </div>
                 </div>
 
                 <div className={props.toggleState === 2 ? styles.activeContent : styles.portfolioContent}>
@@ -29,23 +39,42 @@ const Projects = (props) => {
                     <p className={styles.techNames}>
                     React.js - Commerce.js - Stripe API - React-hook-form - Material-UI - CSS - JSX - JavaScript - Node.js
                     </p>
+                    <div className={`${styles.bottom}`}>
+                        <div className={styles.back}>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hrRDpllRvro" title="YouTube video player" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                        </div>
+                        <div>
+                            <a className={`${styles.sourceBtn} ${styles.hvrForward}`} target="_blank" 
+                            href="https://github.com/evelynvalles/SneakerHead-E-Commerce-Store" rel="noopener noreferrer">View Source Code</a>
+                        </div>
+                    </div>
                 </div>
 
                 <div className={props.toggleState === 3 ? styles.activeContent : styles.portfolioContent}>
-                        <h2>CodeLifter</h2>
-                        <p>This project was created in a one-week sprint with another software developer. The inspiration behind this project 
-                        came from the idea that we wanted to create a sense of community for people who are trying to break into software 
-                        development from non-traditional backgrounds. Therefore, a platform was established where website visitors can share
-                        experiences and exchanging ideas via forming/joining study groups, creating/commenting on posts regarding jobs, 
-                        interview preparation, lifestyle, and success stories.</p>
-                        <h3>Programmed With:</h3>
-                        <p className={styles.techNames}>
-                        Java - Spring - Spring Boot - Spring Security - Bycrpt - JSP - MySQL - Spring Data JPA - Java Mail Sender - CSS
-                        </p>
+                    <h2>CodeLifter</h2>
+                    <p>This project was created in a one-week sprint with another software developer. The inspiration behind this project 
+                    came from the idea that we wanted to create a sense of community for people who are trying to break into software 
+                    development from non-traditional backgrounds. Therefore, a platform was established where website visitors can share
+                    experiences and exchanging ideas via forming/joining study groups, creating/commenting on posts regarding jobs, 
+                    interview preparation, lifestyle, and success stories.</p>
+                    <h3>Programmed With:</h3>
+                    <p className={styles.techNames}>
+                    Java - Spring - Spring Boot - Spring Security - Bycrpt - JSP - MySQL - Spring Data JPA - Java Mail Sender - CSS
+                    </p>
+                    <div className={`${styles.bottom}`}>
+                        <div className={styles.back}>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hrRDpllRvro" title="YouTube video player" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                        </div>
+                        <div>
+                            <a className={`${styles.sourceBtn} ${styles.hvrForward}`} target="_blank" 
+                            href="https://github.com/jingwenl0718/CodeLifter" rel="noopener noreferrer">View Source Code</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div className={styles.back}>
-                <ImgBox />
             </div>
         </div>
     )

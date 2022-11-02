@@ -1,13 +1,13 @@
 .header {
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: 10rem;
 }
 
 .portfolioSec {
-    padding: 2rem 18%;
-    margin-top: 6rem;
+    padding: 2rem 15%;
+    margin-top: 3rem;
 }
 
 .portfolio {
@@ -83,13 +83,14 @@
 }
 
 .box h3 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 600;
     margin: 1.5rem 0;
 }
 
 .box p {
     font-family: "Open Sans", sans-serif;
+    font-size: .95rem;
 }
 
 .box .techNames {
@@ -109,6 +110,52 @@
 
 .Portfolio .PortfolioMobile {
     display: none;
+}
+
+.back {
+    width: 500px;
+    height: 282px;
+    margin-top: 2rem;
+}
+
+.bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.sourceBtn {
+    background-color: rgb(183, 110, 121);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgb(0, 0, 0 / 15%);
+    padding: 1rem 1rem;
+    font-size: .8rem;
+    text-decoration: none;
+}
+
+.sourceBtn:hover {
+    color: #333;
+}
+
+.hvrForward {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.hvrForward:hover, .hvr-forward:focus, .hvr-forward:active {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
 }
 
 @media (max-width: 950px) {
@@ -135,5 +182,18 @@
 
     .Portfolio .PortfolioMobile .box h3 {
         font-size: 1.5rem;
+    }
+
+    .bottom {
+        display: block
+    }
+
+    .back {
+        width: 260px;
+        height: 146.25px;
+    }
+
+    .sourceBtn {
+        margin-top: 1.5rem;
     }
 }
