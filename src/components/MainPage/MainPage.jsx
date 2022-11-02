@@ -1,5 +1,5 @@
 import React from 'react'
-import { HomeSection, AboutMe, Porfolio, Contact, Footer } from "../index"
+import { HomeSection, AboutMe, Porfolio, Contact } from "../index"
 
 const MainPage = () => {
   return (
@@ -8,7 +8,6 @@ const MainPage = () => {
       <AboutMe />
       <Porfolio />
       <Contact />
-      <Footer />
     </>
   )
 }
