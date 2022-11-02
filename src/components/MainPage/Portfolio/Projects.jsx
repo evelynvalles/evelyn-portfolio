@@ -19,7 +19,7 @@ const Projects = (props) => {
                     </p>
                     <div className={`${styles.bottom}`}>
                         <div className={styles.back}>
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hrRDpllRvro" title="YouTube video player" 
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JcKu3Ay256A" title="YouTube video player" 
                             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                             allowfullscreen></iframe>
                         </div>
@@ -41,7 +41,7 @@ const Projects = (props) => {
                     </p>
                     <div className={`${styles.bottom}`}>
                         <div className={styles.back}>
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hrRDpllRvro" title="YouTube video player" 
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/y7MSQ2FJFfU" title="YouTube video player" 
                             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                             allowfullscreen></iframe>
                         </div>
@@ -65,7 +65,7 @@ const Projects = (props) => {
                     </p>
                     <div className={`${styles.bottom}`}>
                         <div className={styles.back}>
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hrRDpllRvro" title="YouTube video player" 
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TLVrTsRbfww" title="YouTube video player" 
                             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                             allowfullscreen></iframe>
                         </div>
