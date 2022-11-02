@@ -185,7 +185,7 @@
     }
 
     .bottom {
-        display: block
+        display: inline-block;
     }
 
     .back {
@@ -194,6 +194,17 @@
     }
 
     .sourceBtn {
-        margin-top: 1.5rem;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 1286px) {
+    .sourceBtn {
+        margin-left: 1rem;
+    }
+
+    .back {
+        width: 400px;
+        height: 225px;
     }
 }
