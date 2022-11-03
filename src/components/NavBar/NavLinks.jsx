@@ -19,28 +19,28 @@ const location = useLocation();
                         animate={animateTo}
                         transition={{delay: 0.05}}
                         onClick={() => props.isMobile && props.closeMobileMenu()}>
-                            <a href="/#home" style={{textDecoration: "none", color: "#F0EFEB"}} className={styles.link}>Home</a>
+                            <a href="#home" style={{textDecoration: "none", color: "#F0EFEB"}} className={styles.link}>Home</a>
                     </motion.li>
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.10}}
                         onClick={() => props.isMobile && props.closeMobileMenu()}>
-                            <a href="/#about" style={{textDecoration: "none", color: "#F0EFEB"}}>About</a>
+                            <a href="#about" style={{textDecoration: "none", color: "#F0EFEB"}}>About</a>
                     </motion.li>
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.20}}
                         onClick={() => props.isMobile && props.closeMobileMenu()}>
-                            <a href="/#portfolio" style={{textDecoration: "none", color: "#F0EFEB"}}>Portfolio</a>
+                            <a href="#portfolio" style={{textDecoration: "none", color: "#F0EFEB"}}>Portfolio</a>
                     </motion.li>
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.30}}
                         onClick={() => props.isMobile && props.closeMobileMenu()}>
-                            <a href="/#contact" style={{textDecoration: "none", color: "#F0EFEB"}}>Contact</a>
+                            <a href="#contact" style={{textDecoration: "none", color: "#F0EFEB"}}>Contact</a>
                     </motion.li>
                     <motion.li 
                         initial={animateFrom}
