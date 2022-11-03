@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/evelynvalles/evelyn-portfolio/static/css/main.62343c0c.css",
-    "main.js": "/evelynvalles/evelyn-portfolio/static/js/main.e2385414.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/evelynvalles/evelyn-portfolio/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/evelyn.jpg": "/evelynvalles/evelyn-portfolio/static/media/evelyn.5e3a24d1803662760d1a.jpg",
-    "static/media/mail.png": "/evelynvalles/evelyn-portfolio/static/media/mail.48ea30e14ca8e3b79404.png",
-    "static/media/developer.png": "/evelynvalles/evelyn-portfolio/static/media/developer.e41613ce3d265f0940e4.png",
-    "static/media/teamwork.png": "/evelynvalles/evelyn-portfolio/static/media/teamwork.1c6300117e35e859495c.png",
-    "static/media/problem-solving.png": "/evelynvalles/evelyn-portfolio/static/media/problem-solving.66a22b86a94076be4f0a.png",
-    "index.html": "/evelynvalles/evelyn-portfolio/index.html",
-    "main.62343c0c.css.map": "/evelynvalles/evelyn-portfolio/static/css/main.62343c0c.css.map",
-    "main.e2385414.js.map": "/evelynvalles/evelyn-portfolio/static/js/main.e2385414.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/evelynvalles/evelyn-portfolio/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/evelyn-portfolio/static/css/main.62343c0c.css",
+    "main.js": "/evelyn-portfolio/static/js/main.18c40652.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/evelyn-portfolio/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/evelyn.jpg": "/evelyn-portfolio/static/media/evelyn.5e3a24d1803662760d1a.jpg",
+    "static/media/mail.png": "/evelyn-portfolio/static/media/mail.48ea30e14ca8e3b79404.png",
+    "static/media/developer.png": "/evelyn-portfolio/static/media/developer.e41613ce3d265f0940e4.png",
+    "static/media/teamwork.png": "/evelyn-portfolio/static/media/teamwork.1c6300117e35e859495c.png",
+    "static/media/problem-solving.png": "/evelyn-portfolio/static/media/problem-solving.66a22b86a94076be4f0a.png",
+    "index.html": "/evelyn-portfolio/index.html",
+    "main.62343c0c.css.map": "/evelyn-portfolio/static/css/main.62343c0c.css.map",
+    "main.18c40652.js.map": "/evelyn-portfolio/static/js/main.18c40652.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/evelyn-portfolio/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62343c0c.css",
-    "static/js/main.e2385414.js"
+    "static/js/main.18c40652.js"
   ]
 }
