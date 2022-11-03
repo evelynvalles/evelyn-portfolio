@@ -19,14 +19,14 @@ const location = useLocation();
                         animate={animateTo}
                         transition={{delay: 0.05}}
                         onClick={() => props.isMobile && props.closeMobileMenu()}>
-                            <a href="#home" style={{textDecoration: "none", color: "#F0EFEB"}} className={styles.link}>Home</a>
+                            <a href="/#home" style={{textDecoration: "none", color: "#F0EFEB"}} className={styles.link}>Home</a>
                     </motion.li>
                     <motion.li 
                         initial={animateFrom}
                         animate={animateTo}
                         transition={{delay: 0.10}}
                         onClick={() => props.isMobile && props.closeMobileMenu()}>
-                            <a href="#about" style={{textDecoration: "none", color: "#F0EFEB"}}>About</a>
+                            <a href="/#about" style={{textDecoration: "none", color: "#F0EFEB"}}>About</a>
                     </motion.li>
                     <motion.li 
                         initial={animateFrom}
@@ -57,7 +57,7 @@ const location = useLocation();
                         animate={animateTo}
                         transition={{delay: 0.05}}
                         onClick={() => props.isMobile && props.closeMobileMenu()}>
-                            <a href="/" style={{textDecoration: "none", color: "#F0EFEB"}} className={styles.link}>Home</a>
+                            <Link to="/" style={{textDecoration: "none", color: "#F0EFEB"}} className={styles.link}>Home</Link>
                     </motion.li>
                     <motion.li 
                         initial={animateFrom}
