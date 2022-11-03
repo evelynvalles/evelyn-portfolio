@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "http://evelynvalles.github.io/evelynvalles.github.io",
+  "homepage": "https://evelynvalles.github.io/evelynvalles.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
